@@ -67,7 +67,7 @@ function Map() {
 
     return (
       <LoadScript
-        googleMapsApiKey="AIzaSyC5vJg6Zs-nho_xeQgpVJXJsm8rWN1wovU"
+        googleMapsApiKey=""
       >
         <GoogleMap
           onLoad={handleOnLoad}
