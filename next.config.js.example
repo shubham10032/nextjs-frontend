@@ -1,0 +1,16 @@
+module.exports = {
+    webpack: (config) => {
+      config.resolve.fallback = { fs: false,net:false,tls:false };
+      return config;
+    },
+    env: {
+      APP_URL: 'http://localhost:3000/api',
+      UTM :'?utm_source=direct_visitors&utm_medium=self&utm_campaign=&utm_id=',
+       APIHOST:'https://testapi.referloan.in',
+      SITEHOST:'localhost'
+    },
+     i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+  },
+  };
